@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": 2021,
+      "mileage": "15,000 km",
+      "seats": 5,
+      "price": "$25,000",
+      "images": [
+        "https://example.com/toyota-front.jpg",
+        "https://example.com/toyota-back.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2020,
+      "mileage": "10,000 km",
+      "seats": 5,
+      "price": "$22,000",
+      "images": [
+        "https://example.com/honda-front.jpg",
+        "https://example.com/honda-back.jpg"
+      ]
+    }
+  ]
+  
