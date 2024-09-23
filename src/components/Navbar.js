@@ -1,17 +1,22 @@
 import React from 'react';
+import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
-    <nav className="bg-primary text-white py-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="text-2xl font-bold">
-          <a href="/">Car Dealership</a>
-        </div>
-        <div className="space-x-6">
-          <a href="#cars" className="hover:text-secondary">Cars</a>
-          <a href="#contact" className="hover:text-secondary">Contact</a>
-          <a href="#about" className="hover:text-secondary">About</a>
-        </div>
+    <nav className="bg-gradient-to-r from-blue-600 to-blue-800 p-4 flex justify-between items-center flex-wrap shadow-lg">
+      <div className="flex items-center space-x-2">
+        <span className="text-3xl">🚗</span> {/* Car emoji for logo */}
+        <span className="text-white text-2xl font-semibold">Car Dealership</span>
+      </div>
+      <div className="text-white flex items-center space-x-6">
+        <span className="flex items-center">
+          <FaEnvelope className="mr-1" />
+          info@cardealership.com
+        </span>
+        <span className="flex items-center">
+          <FaPhoneAlt className="mr-1" />
+          +254729942447
+        </span>
       </div>
     </nav>
   );

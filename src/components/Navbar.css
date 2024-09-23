@@ -1,0 +1,53 @@
+/* src/components/navbar.css */
+
+.navbar {
+    @apply bg-gradient-to-r from-blue-600 to-blue-800 p-4 flex justify-between items-center flex-wrap shadow-lg; /* Gradient background with shadow */
+  }
+  
+  .navbar .logo {
+    @apply flex items-center space-x-2; /* Flex container for logo */
+  }
+  
+  .navbar .logo span {
+    @apply text-3xl; /* Logo size */
+  }
+  
+  .navbar .brand-name {
+    @apply text-white text-2xl font-semibold; /* Style for brand name */
+  }
+  
+  .navbar .contact-info {
+    @apply text-white flex items-center space-x-6; /* Flex container for contact info */
+  }
+  
+  .navbar .contact-info span {
+    @apply flex items-center; /* Flex for each contact item */
+  }
+  
+  /* Icon styling */
+  .navbar .contact-info svg {
+    @apply mr-1; /* Margin for icons */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .navbar {
+      @apply flex-col items-start; /* Stack items on smaller screens */
+      @apply p-2; /* Adjust padding for smaller screens */
+    }
+  
+    .navbar .contact-info {
+      @apply mt-2 w-full justify-between; /* Distribute contact info evenly */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar .brand-name {
+      @apply text-lg; /* Smaller text for smaller screens */
+    }
+    
+    .navbar .contact-info {
+      @apply flex-col items-start; /* Stack contact info vertically */
+    }
+  }
+  
