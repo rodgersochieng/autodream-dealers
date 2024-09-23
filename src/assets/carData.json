@@ -19,7 +19,7 @@
       "year": 2020,
       "mileage": "10,000 km",
       "seats": 5,
-      "price": "$22,000",
+      "price": "200,000",
       "images": [
         "https://example.com/honda-front.jpg",
         "https://example.com/honda-back.jpg"
@@ -32,7 +32,7 @@
       "year": 2020,
       "mileage": "10,000 km",
       "seats": 5,
-      "price": "$22,000",
+      "price": "22,000",
       "images": [
         "https://example.com/honda-front.jpg",
         "https://example.com/honda-back.jpg"

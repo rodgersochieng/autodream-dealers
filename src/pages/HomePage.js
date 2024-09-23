@@ -12,7 +12,7 @@ const HomePage = () => {
 
   return (
     <div className="container mx-auto px-4 py-6">
-      <h1 className="text-4xl font-bold text-center mb-8">Car Dealership</h1>
+      {/* <h1 className="text-4xl font-bold text-center mb-8"></h1>  */}
       
       {/* Search Bar */}
       <div className="mb-6">
