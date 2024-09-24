@@ -1,41 +1,145 @@
 [
     {
       "id": 1,
-      "make": "Toyota",
-      "model": "Corolla",
+      "make": "Landrover",
+      "model": "Discovery",
       "year": 2021,
       "mileage": "15,000 km",
       "seats": 5,
-      "price": "$25,000",
+      "price": "7,250,000",
       "images": [
-        "https://example.com/toyota-front.jpg",
-        "https://example.com/toyota-back.jpg"
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727207374/lanrover-front_k0iteu.jpg",
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727207374/landrover-back_flco4i.jpg"
       ]
     },
     {
       "id": 2,
-      "make": "Honda",
-      "model": "Civic",
+      "make": "Nissan",
+      "model": "Note epower",
       "year": 2020,
-      "mileage": "10,000 km",
-      "seats": 5,
-      "price": "2200,000",
+      "mileage": "10 km",
+      "seats": 4,
+      "price": "2,200,000",
       "images": [
-        "https://example.com/honda-front.jpg",
-        "https://example.com/honda-back.jpg"
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727206692/nismo-back_na463l.jpg",
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727206692/nismo-front_n19ki9.jpg"
       ]
     },
     {
       "id": 3,
       "make": "BMW",
-      "model": "X7",
+      "model": "X1",
       "year": 2020,
-      "mileage": "10,000 km",
+      "mileage": "1000 km",
       "seats": 5,
-      "price": "22,000",
+      "price": "2,000,000",
       "images": [
-        "https://example.com/honda-front.jpg",
-        "https://example.com/honda-back.jpg"
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727207375/bmw-front_za8lbq.jpg",
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727207372/bmw-back_ujcpnc.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "make": "Honda",
+      "model": "Fit",
+      "year": 2021,
+      "mileage": "15 km",
+      "seats": 4,
+      "price": "1,500,000",
+      "images": [
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727208400/hfit-front_v4tinh.jpg",
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727208398/hfit-back_cgutra.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "make": "Toyota",
+      "model": "Vitz",
+      "year": 2021,
+      "mileage": "15km",
+      "seats": 4,
+      "price": "2,500,000",
+      "images": [
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727208400/jewela-front_jdamcf.jpg",
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727208400/jewela-front_jdamcf.jpg"
+      ]
+    },
+     {
+      "id": 6,
+      "make": "Isuzu",
+      "model": "NQR",
+      "year": 2016,
+      "mileage": "15,000 km",
+      "seats": 2,
+      "price": "2,500,000",
+      "images": [
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727208394/isuzu-front_fwsstm.jpg",
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727208395/isuzu-back_nbizk1.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "make": "Honda",
+      "model": "Fit",
+      "year": 2021,
+      "mileage": "15 km",
+      "seats": 4,
+      "price": "1,500,000",
+      "images": [
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727208398/fit-back_al9ydu.jpg",
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727208398/fit-front_wdeb53.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "make": "Toyota",
+      "model": "Vitz",
+      "year": 2017,
+      "mileage": "15,00km",
+      "seats": 4,
+      "price": "700,000",
+      "images": [
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727208395/vitz-front_nxs56c.jpg",
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727208395/vitz-back_wcmd7y.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "make": "Toyota",
+      "model": "Fielder",
+      "year": 2017,
+      "mileage": "15,00km",
+      "seats": 5,
+      "price": "870,000",
+      "images": [
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727208392/fielderwhite-front_ix5zxh.jpg",
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727208391/fielderwhite-back_rusvq9.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "make": "Toyota",
+      "model": "Fielder",
+      "year": 2017,
+      "mileage": "15,00km",
+      "seats": 5,
+      "price": "870,000",
+      "images": [
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727208393/fielder-front_yw3we5.jpg",
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727208391/fielder-back_m1slw4.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "make": "Toyota",
+      "model": "landcruiser prado TX",
+      "year": 2017,
+      "mileage": "15,00km",
+      "seats": 7,
+      "price": "4,870,000",
+      "images": [
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727208394/landcruser-front_qktsg0.jpg",
+        "https://res.cloudinary.com/dqmvetc5w/image/upload/v1727208393/landcruiserback_u18euw.jpg"
       ]
     }
   ]
