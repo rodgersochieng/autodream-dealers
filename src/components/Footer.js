@@ -19,10 +19,10 @@ const Footer = () => {
           </a>
         </div>
         <p>
-              Made with ❤️ by <a href="  www.linkedin.com/in/ochieng-o-rodgers" className="text-white">Lazy Dev</a>
-            </p>
+           Made with ❤️ by <a href="https://www.linkedin.com/in/ochieng-o-rodgers" className="text-white" target="_blank" rel="noopener noreferrer">Lazy Dev</a>
+           </p>
             <p className="footer-copyright">
-              &copy; {new Date().getFullYear()} AutoDrean. All rights reserved.
+              &copy; {new Date().getFullYear()} AutoDream. All rights reserved.
             </p>
         {/* <p className="text-sm">&copy; 2024 Car Dealership. All rights reserved.</p> */}
       </div>
