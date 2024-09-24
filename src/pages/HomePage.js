@@ -12,7 +12,7 @@ const HomePage = () => {
 
   return (
     <div className="container mx-auto px-4 py-6">
-      {/* <h1 className="text-4xl font-bold text-center mb-8"></h1>  */}
+      <h5 className="text-4xl font-bold text-center mb-5"> Find your next drive</h5> 
       
       {/* Search Bar */}
       <div className="mb-6">
