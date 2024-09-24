@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Car Dealership Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a **Car Dealership Website** built using **React** and **Tailwind CSS**. The website allows users to browse through different cars, inquire via WhatsApp, book a test drive, and request a callback. Car data is fetched from a JSON file for easy management and updates.
 
-## Available Scripts
+## Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-In the project directory, you can run:
+## Features
+- **Responsive Design**: The website is fully responsive and works on all device sizes.
+- **Car Details**: Displays detailed information for each car (make, model, year, mileage, seats, price).
+- **Image Slider**: Each car card features a slider with multiple car images (front and back).
+- **WhatsApp Inquiry**: Allows users to inquire via WhatsApp with pre-filled car details.
+- **Test Drive Booking**: Users can book a test drive by providing their contact details.
+- **Request a Callback**: Users can request a callback with one click.
+- **Search Functionality**: Search for cars through a search bar.
+- **Icons for Car Features**: Icons are used to display car features like mileage, seats, and year.
+- **JSON Data**: Car data (including images) is sourced from a JSON file for easy updates.
+- **Social Media Links in Footer**: Footer includes social media contact information.
 
-### `npm start`
+## Tech Stack
+- **React**: Frontend framework
+- **Tailwind CSS**: Utility-first CSS framework
+- **React Slick**: For car image sliders
+- **Font Awesome**: For icons in the car details
+- **JSON**: For managing car data
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+.
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   │ 
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── CarCard.js
+│   │   ├── TestDriveModal.js
+│   │   ├── RequestCallModal.js
+│   ├── data/
+│   │   └── cars.json
+│   ├── App.js
+│   ├── index.js
+│   └── App.css
+├── tailwind.config.js
+└── package.json
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# git clone https://github.com/your-RODGERSOCHIENG/car-dealership.git
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Once the server is running, you can navigate through the app to:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### View car details
+### Inquire about cars via WhatsApp
+### Book test drives
+### Request callbacks
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
+## Contributions are welcome! Please open an issue or submit a pull request if you'd like to contribute.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+## his project is licensed under the MIT License 
